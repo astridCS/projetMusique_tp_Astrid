@@ -28,11 +28,10 @@
  /*style page liste.html*/
  
  
- .card-body {
+ #listcard.card-body {
     height:370px ! important;
  }
  .card-footer {
     height: 80px ! important;
  }
- 
  

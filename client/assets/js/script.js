@@ -41,7 +41,7 @@ fetch(url, options)
      card.classList.add('card', 'text-dark', 'bg-light', 'border-success', 'h-100', 'shadow', 'my-auto');
      headerCard.classList.add('card-header', 'bg-white', 'border-success',);
      footerCard.classList.add('card-footer', 'bg-white', 'border-success',);
-     bodyCard.classList.add('card-body',);
+     bodyCard.classList.add('card-body');
 
      title.classList.add('card-title','text-center','font-weight-bold');
      style.classList.add('card-text');
