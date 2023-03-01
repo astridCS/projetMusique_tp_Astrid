@@ -1,0 +1,38 @@
+
+
+.lebody {
+   background-color: ghostwhite !important;
+
+}
+
+.cardmusicidex{
+    
+	height: 250px !important;
+}
+.section1{
+    margin-bottom: -150px !important;
+}
+/*style page creatForm.html*/
+
+#bodyCreateForm{
+    overflow-x: hidden!important;
+}
+
+/*style page modifform.html*/
+
+#footer {
+    position: absolute;
+    bottom: 0;  
+    width: 100%;     
+ } 
+ /*style page liste.html*/
+ 
+ 
+ .card-body {
+    height:370px ! important;
+ }
+ .card-footer {
+    height: 80px ! important;
+ }
+ 
+ 

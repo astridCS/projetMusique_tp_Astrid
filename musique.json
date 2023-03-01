@@ -1,0 +1,104 @@
+[
+    {
+        "style": ["gospel "],
+        "auteur": "Kirk franklin et maverick city music",
+        "titre": "bless me",
+        "album": "kingdom book",
+        "annee": "20 mai 2022",
+        "origine": "americaine",
+        "sujet": "demande de bénediction afin d'aider les autres",
+        "caractere": "dynamique",
+        "forme":{
+            "parties": 5,
+            "repetitionElement": ["bless me","bless me God","favor God"]
+
+        },
+        "extrait": "https://maverickcityxkirkfranklin.link..."
+
+
+    },
+    {
+        "style": ["pop", "disco"],
+        "auteur":" the weeknd,daft punk",
+        "titre": "I feel it coming",
+        "album": "starboy",
+        "annee": "18 novembre 2016",
+        "origine": "americaine",
+        "sujet": "relation passionnelle dans laquellel'interprète se sent prêt à s'engager",
+        "caractere": "dansante",
+        "forme":{
+            "parties": 5,
+            "repetitionElement": ["i feel it coming baby","i feel it coming"]
+
+        },
+        "extrait": "https://TheWeeknd.Ink.to/IFeelltComin.../"
+
+
+    },
+    {
+        "style": ["french urban", "pop", "r&b"],
+        "auteur": "dorely",
+        "titre": "demain sera meilleur",
+        "album": "demain sera meilleur",
+        "annee": "11 avril 2022",
+        "origine": "française",
+        "sujet": "la confiance en soi et la difficulté de s'accepter pour ce que l'on est, l'amour et les ruptures",
+        "caractere": "rythmique",
+        "forme":{
+            "parties": 6,
+            "repetitionElement":["va dire","comment faire", "on n'entends pas"]
+
+        },
+        "extrait": "https://dorely.ink.Ink.to/Demainserameilleur"
+    },
+    {
+        "style": ["electronic", "Moombahton", "bhangra"],
+        "auteur": "dJ snake,Major lazer et mo",
+        "titre": "lean on",
+        "album": "Peace Is The Mission",
+        "annee": "01 mars 2015",
+        "origine": "americaine",
+        "sujet": "La chanson parle de connexion et de réconfort dans les autres",
+        "caractere": "rythmique",
+        "forme":{
+            "parties": 6,
+            "repetitionElement": ["Blow a kiss"," fire a gun", "We all need someone to lean on"]
+
+        },
+        "extrait": "https://youtu.be/YqeW9_5kURI"
+    },
+    {
+        "style": ["rap", "pop"],
+        "auteur": "soprano",
+        "titre": "3615 bonheur",
+        "album": "Chasseur d'étoiles",
+        "annee": "21 octobre 2022",
+        "origine": "française",
+        "sujet": "En clin d'oeil à l'actualité morose, entre crise sanitaire, guerres dans le monde, grèves, hausses des prix et pénurie d'essence, ce chant est pensé comme un remède à la grisaille.",
+        "caractere": "rythmique",
+        "forme":{
+            "parties": 7,
+            "repetitionElement": ["le 3615 Bonheur", "allô Allô","ouh ouh"]
+
+        },
+        "extrait": "https://youtu.be/lBVz-HnDaNU"
+    },
+    {
+        "style": ["afrodance", "coupé décalé"],
+        "auteur": "josey",
+        "titre": "rebelote",
+        "album": "cocktail",
+        "annee": "01 mai 2021",
+        "origine": "ivoirienne",
+        "sujet": "S'évader du quotidien et danser un tant soit peut en ces temps moroses",
+        "caractere": "dansante",
+        "forme":{
+            "parties": 10,
+            "repetitionElement": ["Et rebelotte, et rebelotte", "Danser pour danser","La mula, la mula (on est trop forts)"]
+
+        },
+        "extrait": "https://youtu.be/uhx9YbUzUYY"
+        
+    }
+
+]
