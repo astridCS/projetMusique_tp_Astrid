@@ -7,7 +7,6 @@ function addMusic() {
     var annee = document.querySelector('#annee');
     var origine = document.querySelector('#origine');
     var caractere = document.querySelector('#caractere');
-    //var forme = document.querySelector('#forme');
     var extrait = document.querySelector('#extrait');
     var sujet = document.querySelector('#sujet');
   
@@ -20,7 +19,6 @@ function addMusic() {
         origine : origine.value,
         sujet : sujet.value,
         caractere : caractere.value,
-        //forme : forme.value,
         extrait : extrait.value,
 
     };
