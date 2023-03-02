@@ -1,3 +1,4 @@
+// Je récupère tous les éléments de mon formulaire
 function addMusic() {
     
     var style = document.querySelector('#style');
@@ -9,7 +10,8 @@ function addMusic() {
     var caractere = document.querySelector('#caractere');
     var extrait = document.querySelector('#extrait');
     var sujet = document.querySelector('#sujet');
-  
+
+  //  je creé un Objet temporaire respectant la même structure que le schéma du model
     var tmp = {
         style : style.value,
         auteur : auteur.value,
@@ -61,13 +63,14 @@ function addMusic() {
         var tab = document.querySelector('#music');
         var newLine = document.createElement('tr');
         for (const prop in data) {
+          // Je n'affiche pas les données de ma propriété forme
           if(prop != '_id' && prop != '__v' && prop != 'forme') {
             var tmp = document.createElement('td');
             tmp.innerText = data[prop]; 
             newLine.appendChild(tmp);
           }
         }
-        
+        // Je créé un lien dans la page creationform vers la page modifform
         var tdLink = document.createElement('td');
         var link = document.createElement('a');
         link.href = '/pages/modifform.html#' + data._id;
@@ -75,6 +78,7 @@ function addMusic() {
         tdLink.appendChild(link);
         newLine.appendChild(tdLink);
 
+         // Je créé le bouton suppression
         var tdSupr = document.createElement('td');
         var btnSupr = document.createElement('button');
         btnSupr.innerText = 'Supprimer';
@@ -88,7 +92,7 @@ function addMusic() {
       
         tab.appendChild(newLine);
     }
-
+      // Je selecionne le bouton de validation  et je créé l'écouteur d'evt associé au clic de celui-ci
         var btn = document.querySelector('#valider');
         btn.addEventListener('click', (e) => {
         e.preventDefault();
@@ -108,6 +112,7 @@ function addMusic() {
         fetch(url, options)
         .then((res) => {
             if(res.ok) {
+               // on extraie le résultat en JSON
               return res.json();
             }
           })
